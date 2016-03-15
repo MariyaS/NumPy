@@ -20,7 +20,17 @@ def statistic_calculations(array):
 
 """ Example of array operations. """
 def array_operations():
-    print "work in progress"
+    array_1D = numpy.array([1, 2, 3, 4], float)
+    print array_1D
+    array_2D = numpy.array([[1, 2, 3, 4],[5, 6, 7, 8]], float)
+    print array_2D
+    
+    """ Arithmetics on 1D arrays """
+    array_1D_1 = numpy.array([0, 1, 2], float)
+    array_1D_2 = numpy.array([3, 4, 5], float)
+    print array_1D_1 + array_ID_2
+    print array_1D_1 - array_ID_2
+    print array_1D_1 * array_ID_2
     
 def test_run():
     """ Use this to verify or find out version and config details. """
