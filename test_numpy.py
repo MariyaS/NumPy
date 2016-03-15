@@ -32,6 +32,14 @@ def array_operations():
     print array_1D_1 - array_ID_2
     print array_1D_1 * array_ID_2
     
+    """ Arithmetics on 2D arrays """
+    array_2D_1 = numpy.array([[1, 2, 3], [4, 5, 6]], float)
+    array_2D_2 = numpy.array([[4, 5, 6], [7, 8, 9]], float)
+    print array_2D_1 + array_2D_2
+    print array_2D_1 - array_2D_2
+    print array_2D_1 * array_2D_2
+    print array_2D_1 / array_2D_2
+    
 def test_run():
     """ Use this to verify or find out version and config details. """
     # version_config()
