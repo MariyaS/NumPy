@@ -45,10 +45,18 @@ def test_run():
     # version_config()
 
     """ Use this for practice on statistical analysis functions. """
+    print " 1D array statistical operations: "
     array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     statistic_calculations(array)
+    print ""
+    
+    print " 2D array statistical operations: "
+    array_2D = np.array( [ [0, 1, 2], [3, 4, 5] ] , float )
+    statistical_calculations(array_2D)
+    print ""
 
     """ Use for array operations"""
+    print " Array operations: "
     array_operations()
 
 if __name__ == '__main__':
