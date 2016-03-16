@@ -20,21 +20,21 @@ def statistic_calculations(array):
 
 """ Example of array operations. """
 def array_operations():
-    array_1D = numpy.array([1, 2, 3, 4], float)
+    array_1D = np.array([1, 2, 3, 4], float)
     print array_1D
-    array_2D = numpy.array([[1, 2, 3, 4],[5, 6, 7, 8]], float)
+    array_2D = np.array([[1, 2, 3, 4],[5, 6, 7, 8]], float)
     print array_2D
     
     """ Arithmetics on 1D arrays """
-    array_1D_1 = numpy.array([0, 1, 2], float)
-    array_1D_2 = numpy.array([3, 4, 5], float)
-    print array_1D_1 + array_ID_2
-    print array_1D_1 - array_ID_2
-    print array_1D_1 * array_ID_2
+    array_1D_1 = np.array([0, 1, 2], float)
+    array_1D_2 = np.array([3, 4, 5], float)
+    print array_1D_1 + array_1D_2
+    print array_1D_1 - array_1D_2
+    print array_1D_1 * array_1D_2
     
     """ Arithmetics on 2D arrays """
-    array_2D_1 = numpy.array([[1, 2, 3], [4, 5, 6]], float)
-    array_2D_2 = numpy.array([[4, 5, 6], [7, 8, 9]], float)
+    array_2D_1 = np.array([[1, 2, 3], [4, 5, 6]], float)
+    array_2D_2 = np.array([[4, 5, 6], [7, 8, 9]], float)
     print array_2D_1 + array_2D_2
     print array_2D_1 - array_2D_2
     print array_2D_1 * array_2D_2
