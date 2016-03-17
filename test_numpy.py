@@ -40,6 +40,15 @@ def array_operations():
     print array_2D_1 * array_2D_2
     print array_2D_1 / array_2D_2
     
+""" Example of dot product operations. """
+def dot_product():
+    array_1 = np.array( [0, 1, 2] , float)
+    print array_1
+    array_2 = np.array( [1, 2, 3] , float)
+    print array_2
+    print " Dot product: "
+    print np.dot(array_1, array_2)
+
 def test_run():
     """ Use this to verify or find out version and config details. """
     # version_config()
@@ -52,12 +61,16 @@ def test_run():
     
     print " 2D array statistical operations: "
     array_2D = np.array( [ [0, 1, 2], [3, 4, 5] ] , float )
-    statistical_calculations(array_2D)
+    statistic_calculations(array_2D)
     print ""
 
     """ Use for array operations"""
     print " Array operations: "
     array_operations()
+
+    """ Use for dot product practice """
+    print " Dot Product operations: "
+    dot_product()
 
 if __name__ == '__main__':
     test_run()
