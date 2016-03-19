@@ -17,6 +17,13 @@ def statistic_calculations(array):
     print np.median(array)
     print "Standard Deviation: "
     print np.std(array)
+    print "Size: "
+    print np.size(array)
+    print "Min: "
+    print np.min(array)
+    print "Max: "
+    print np.max(array)
+    print ""
 
 """ Example of array operations. """
 def array_operations():
